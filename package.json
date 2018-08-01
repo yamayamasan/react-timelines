@@ -19,7 +19,8 @@
     "unit:ci": "jest --maxWorkers=4",
     "coverage": "jest --coverage --collectCoverageFrom='**/*.{js,jsx}'",
     "prepublish": "npm run clean && npm run build",
-    "postinstall": "npm run clean && npm run build"
+    "postinstall": "npm run clean && npm run build",
+    "preinstall": "npm run clean && npm run build"
   },
   "keywords": [
     "timeline",
