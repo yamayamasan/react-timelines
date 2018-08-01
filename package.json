@@ -20,7 +20,8 @@
     "coverage": "jest --coverage --collectCoverageFrom='**/*.{js,jsx}'",
     "prepublish": "npm run clean && npm run build",
     "postinstall": "npm run clean && npm run build",
-    "preinstall": "npm run clean && npm run build"
+    "preinstall": "npm run clean && npm run build",
+    "prepare": "npm run clean && npm run build"
   },
   "keywords": [
     "timeline",
