@@ -17,9 +17,7 @@
     "lint": "npm run lint:js",
     "unit": "jest",
     "unit:ci": "jest --maxWorkers=4",
-    "coverage": "jest --coverage --collectCoverageFrom='**/*.{js,jsx}'",
-    "prepublish": "npm run clean && npm run build",
-    "install": "npm run clean && npm run build"
+    "coverage": "jest --coverage --collectCoverageFrom='**/*.{js,jsx}'"
   },
   "keywords": [
     "timeline",
